@@ -1,4 +1,4 @@
-dule.exports = function check(str, bracketsConfig) {
+module.exports = function check(str, bracketsConfig) {
   var brArr = str.split('');
   for (let c = 0; c < str.length; c++) {
     for (var i = 0; i < brArr.length; i++) {
